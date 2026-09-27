@@ -14,7 +14,14 @@ const projects = [
     title: "GuardRail",
     description: "Browser security extension for detecting suspicious links.",
     stack: ["Python", "FastAPI", "JavaScript"],
-    github: "https://github.com/", // TODO: replace with real repo URL
+    github: "https://github.com/jeroperales/GuardRail---Extension", 
+    demo: ""                        // leave empty string if there is no live demo
+  },
+  {
+    title: "LaRedonda",
+    description: "Full-stack football application that consumes live sports APIs to display real-time match updates and team information. Includes user login and authentication, basic CRUD operations, API integration, and dynamic data rendering for an interactive user experience.",
+    stack: ["Angular", "Javascript", "HTML/CSS", "REST APIs"],
+    github: "https://github.com/jeroperales/LaRedonda-TPFinal://github.com/",
     demo: ""                        // leave empty string if there is no live demo
   }
 
@@ -23,13 +30,13 @@ const projects = [
 const skills = {
   "Languages": ["JavaScript", "Python", "Java", "C"],
   "Web": ["HTML", "CSS", "Angular"],
-  "Tools": ["Git", "GitHub", "SQL", "VS Code"]
+  "Tools": ["Git", "GitHub", "SQL"]
   // Add or rename groups freely — each key becomes a labeled row of tags.
 };
 
 const experience = [
   {
-    dateRange: "2025 — Present",
+    dateRange: "Apr 2025 — Present",
     role: "Bank Teller",
     org: "Central Bank", // TODO: replace with actual employer name if different
     details: [
@@ -37,8 +44,23 @@ const experience = [
       "Cash handling and balancing",
       "Compliance and operational procedures"
     ]
+  },
+  {
+    dateRange: "Nov 2023 — Mar 2024",
+    role: "Guest Service Representative",
+    org: "Uthgra", // TODO: replace with actual employer name if different
+    details: [
+      "Communicated with international customers ensuring a seamless guest experience."
+    ]
+  },
+  {
+    dateRange: "Dec 2020 - Aug 2021",
+    role: "Front Desk Receptionist",
+    org: "Visitar SRL", // TODO: replace with actual employer name if different
+    details: [
+      "Assisted clients with insurance policies, claims, and inquiries, ensuring clarity and satisfaction."
+    ]
   }
-  // Add more roles by copying the block above.
 ];
 
 const education = [
@@ -50,13 +72,21 @@ const education = [
       "Mar del Plata, Argentina"
     ]
   }
-  // Add more entries by copying the block above.
+  ,
+  {
+    dateRange: "2014 — 2020",
+    role: "High School Diploma - Social Sciences & Economics",
+    org: "IAM",
+    details: [
+      "Mar del Plata, Argentina"
+    ]
+  }
 ];
 
 const contact = [
-  { label: "GitHub", href: "https://github.com/" },     // TODO: real GitHub URL
-  { label: "LinkedIn", href: "https://linkedin.com/" }, // TODO: real LinkedIn URL
-  { label: "Email", href: "mailto:you@example.com" }    // TODO: real email address
+  { label: "GitHub", href: "https://github.com/jeroperales" },     // TODO: real GitHub URL
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/jeronimo-perales-807389293//" }, // TODO: real LinkedIn URL
+     
 ];
 
 /* -----------------------------------------
